@@ -7,6 +7,6 @@ Two ways binding data:
    add notifyPropertyChanged(propertyName) for setter methods.
    
    
-2. wrap properties with ObservableField<T> ,and have to be prefix with **public final** and with *NO** getter and setter methods, \nfor example:
+2. wrap properties with ObservableField<T> ,and have to be prefix with **public final** and with *NO** getter and setter methods,for example:
   
   public final ObservableField<String> name = new ObservableField();
